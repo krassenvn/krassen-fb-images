@@ -1,0 +1,97 @@
+{
+ "version": 1,
+ "cta": "Nhắn tin để được tư vấn chi tiết",
+ "start_date": "2026-10-29",
+ "posting_time": "07:00 Asia/Saigon",
+ "pages": [
+  {
+   "index": 0,
+   "name": "Krassen Hà Nội",
+   "id": "1022190797633949"
+  },
+  {
+   "index": 1,
+   "name": "Krassen Nắp bồn cầu chính hãng",
+   "id": "760540450484887"
+  },
+  {
+   "index": 2,
+   "name": "Krassen - Đẳng Cấp Phòng Tắm",
+   "id": "739402342581068"
+  },
+  {
+   "index": 3,
+   "name": "Krassen Hải Phòng",
+   "id": "688853764307675"
+  },
+  {
+   "index": 4,
+   "name": "Krassen - TBVS cao cấp",
+   "id": "108311425017369"
+  }
+ ],
+ "rule": "Với ngày thứ d (d=0 là 2026-10-29) và trang có index p: dùng products[(5*d + p + 2) mod 12]. Bắt đầu lệch 2 để tránh trùng các bài đã đăng thử ngày 28/10.",
+ "products": [
+  {
+   "code": "KS500RK",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS500RK.jpg",
+   "caption": "Nắp bồn cầu rơi êm KS500RK – mũi nhọn, đáy bo, vừa vặn nhiều dòng bồn cầu 💧\n✅ Rộng 37cm, dài 47cm (chỉnh được 47–48cm tính từ mũi bồn cầu đến tâm 2 lỗ bắt vít)\n✅ Nhựa PP nguyên sinh cao cấp, phủ bóng hạn chế trầy xước, màu trắng sữa không ố màu\n✅ Bảo hành 2 năm tính năng đóng êm và độ bền màu\nTương thích nhiều mã bồn cầu Inax (AC602VN…), TOTO (C344, S320…), American (VF2700…), Cotto (C1388…), Caesar (CD1130, CD1131)…\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS11",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS11.jpg",
+   "caption": "Bồn cầu nhà bạn dáng tròn bầu? Nắp đóng êm KS11 là lựa chọn vừa vặn ✨\n✅ Rộng 36cm, dài 44cm (chỉnh dài 43–44cm)\n✅ Nhựa PP nguyên sinh cao cấp phủ bóng, hạn chế trầy xước, màu trắng sữa không ố màu\n✅ Bảo hành 2 năm tính năng đóng êm và độ bền màu\nPhù hợp nhiều dòng bồn cầu Inax (C-117VTN…), Viglacera (VI44…), American Standard (VF-2321…), Ceravi (C305…), Caesar (CT1325PW…), TOTO (S715D…)\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS609TC",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS609TC.jpg",
+   "caption": "KS609TC – mũi nhọn chữ V, đáy rộng, rơi chậm êm ái 🌟\n✅ Rộng 36cm, dài 46cm (chỉnh vị trí ốc vít, dài 45–47cm)\n✅ Rơi chậm không gây tiếng ồn, nhựa PP nguyên sinh phủ bóng không ố màu, hạn chế trầy xước\n✅ Màu trắng sữa bền đẹp, bảo hành 2 năm tính năng đóng êm và độ bền màu\nTương thích bồn cầu Inax (918VRT, AC-952VN), Basic (BS-108…), Kassani (2372…), Cotto (C12247), American (VF1808), Viglacera (V45, V36), Caesar (C1374-PW…)\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS500LK",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS500LK.jpg",
+   "caption": "KS500LK – nắp bồn cầu rơi êm, mũi nhọn thanh lịch, đáy bo gọn gàng 🛁\n✅ Rộng 37cm, dài 47cm (chỉnh dài 47–48cm tính từ mũi nắp đến tâm 2 lỗ vít)\n✅ Nhựa PP nguyên sinh cao cấp phủ bóng, hạn chế trầy xước, màu trắng sữa không ố màu\n✅ Bảo hành 2 năm tính năng đóng êm và độ bền màu\nPhù hợp nhiều dòng TOTO (TC385VS, MS188…), Inax (AC-702VRN, C702VRN…), Caesar (C1356, CD1330…), Viglacera (V37, V39…), American (VF1858, VF2010…)\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS09",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS09.jpg",
+   "caption": "KS09 – nắp bồn cầu tròn bầu đóng êm, vừa nhiều dòng bồn cầu phổ biến 🌿\n✅ Rộng 37cm, dài 44cm (chỉnh dài 43–44cm tính từ mũi nắp đến tâm 2 lỗ vít)\n✅ Nhựa PP nguyên sinh cao cấp phủ bóng, hạn chế trầy xước, màu trắng sữa không ố màu\n✅ Bảo hành 2 năm tính năng đóng êm và độ bền màu\nTương thích bồn cầu Caesar (C1338-PW, CT1325…), Inax (C108, C117…) và nhiều hãng khác\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS15U",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS15U.jpg",
+   "caption": "KS15U – nắp bồn cầu chữ U rơi chậm, êm ái không tiếng ồn 🌙\n✅ Rộng 36cm, dài 46cm (chỉnh dài 45–48cm tính từ mũi nắp đến vị trí ốc vít)\n✅ Rơi chậm không gây tiếng ồn, màu trắng sữa phủ bóng hạn chế trầy xước\n✅ Nhựa PP nguyên sinh cao cấp không ố màu, nặng 1,4kg dày chắc chắn, bảo hành 2 năm\nThay thế cho nhiều bồn phổ thông và cao cấp: Toto (CW162, CW635…), Viglacera (V199, V35…), American Standard (VF2309, VF2781), Vinaloha, Basic, Kassani, Sanfi…\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS005",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS005.jpg",
+   "caption": "KS005 – nắp bồn cầu hình trứng, đóng êm, rơi chậm không gây tiếng ồn 🥚\n✅ Rộng 36cm, dài 45cm (chỉnh dài 43–46cm tính từ mũi nắp đến tâm 2 chân vít)\n✅ Màu trắng sữa phủ bóng hạn chế trầy xước, nhựa PP nguyên sinh cao cấp không ố màu\n✅ Nặng 1,3kg dày chắc chắn, bảo hành 2 năm\nTương thích bồn cầu Cotto (C12247), American (VF2014)… và thay thế cho nhiều loại bồn phổ thông và cao cấp\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS21",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS21.jpg",
+   "caption": "KS21 – nắp bồn cầu mũi tròn đáy bo, dáng nhỏ gọn, rơi chậm êm ái 🤍\n✅ Rộng 34cm, dài 44cm (chỉnh dài 43–44cm tính từ mũi nắp đến tâm 2 chân bắt vít)\n✅ Rơi chậm không gây tiếng ồn, màu trắng sữa phủ bóng hạn chế trầy xước\n✅ Nhựa PP nguyên sinh cao cấp không ố màu, nặng 1,3kg dày chắc chắn, bảo hành 2 năm\nPhù hợp bồn cầu Viglacera (V38, TT77, C109…), Vinaloha (LH1-08, LH1-07), Livera BL08, Kassani KS-2345, Iasaki BL-08…\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS504C",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS504C.jpg",
+   "caption": "KS504C – nắp bồn cầu mũi tròn đáy rộng, rơi chậm, nhựa PP cao cấp không ố màu 💎\n✅ Rộng 36cm, dài 46cm (chỉnh dài 44–47cm tính từ mũi nắp đến tâm 2 chân bắt vít)\n✅ Rơi chậm không gây tiếng ồn, màu trắng sữa phủ bóng hạn chế trầy xước\n✅ Nhựa PP nguyên sinh cao cấp không ố màu, nặng 1,3kg dày chắc chắn, bảo hành 2 năm\nTương thích bồn cầu Ceravi (C502, C504, C612), Viglacera (C109), Basic (BS-103), Siton (S600), Vosler (VL-C391), Saphias (TS-157)…\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS45",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS45.jpg",
+   "caption": "KS45 – nắp bồn cầu cao cấp rơi êm, gắn vòi xịt tiện lợi 🚿\n✅ Rộng 37cm, dài 47cm (chỉnh dài 47–48cm tính từ mũi nắp đến tâm 2 chân bắt vít)\n✅ Rơi chậm không gây tiếng ồn, màu trắng sữa phủ bóng hạn chế trầy xước\n✅ Nhựa PP nguyên sinh cao cấp không ố màu, nặng 1,7kg dày chắc chắn, bảo hành 2 năm\nPhù hợp nhiều loại bồn cao cấp: TOTO, INAX, VIGLACERA, AMERICAN…\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS602K",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS602K.jpg",
+   "caption": "KS602K – nắp bồn cầu mũi nhọn đáy bo, rơi chậm không gây tiếng ồn ✨\n✅ Rộng 36cm, dài 47cm (chỉnh dài 46–48cm tính từ mũi nắp đến tâm 2 chân bắt vít)\n✅ Màu trắng sữa phủ bóng hạn chế trầy xước, nhựa PP nguyên sinh cao cấp không ố màu\n✅ Nặng 1,5kg dày chắc chắn, bảo hành 2 năm\nTương thích bồn cầu American (VF2385, VF1858…), Siton (S604), Cotto (C13382, C1331…), TOTO (S351D, S715D), Viglacera (BL5M, 3310), Basic (BS-108RS)…\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS608U",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS608U.jpg",
+   "caption": "KS608U – nắp bồn cầu chữ U cỡ nhỏ gọn, nhựa PP cao cấp, trắng sữa phủ bóng 🌸\n✅ Rộng 34cm, dài 44cm (chỉnh dài 43–44cm tính từ mũi nắp đến tâm 2 chân bắt vít)\n✅ Rơi chậm không gây tiếng ồn, màu trắng sữa phủ bóng hạn chế trầy xước\n✅ Nhựa PP nguyên sinh cao cấp không ố màu, nặng 1,5kg dày chắc chắn, bảo hành 2 năm\nPhù hợp bồn cầu Cotto (C686), Caesar (CPT1503), Viglacera (V56, V41), Basic (BS-101, BS-102, BS-303)…\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  }
+ ],
+ "offset": 2
+}
