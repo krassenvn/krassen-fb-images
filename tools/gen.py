@@ -20,7 +20,7 @@ def spec3(p,cls):
     return ''.join(f'<div><b>{a}</b>{b}</div>' for a,b in p['specs'])
 CSS="*{margin:0;padding:0;box-sizing:border-box}body{width:1080px;height:1350px;overflow:hidden;font-family:'DejaVu Sans',sans-serif;position:relative}img.logo{mix-blend-mode:multiply;position:absolute}"
 def html(p):
-    s=p['style']; img=f"img/{p['img']}_cut.png"; sp=spec3(p,'')
+    s=p['style']; img=f"img/{p['code']}_pair.png"; sp=spec3(p,'')
     if s==1:
         return f"""<html><head><meta charset=utf-8><style>{CSS}
 body{{background:linear-gradient(170deg,#f2fafd,#d7eef7);color:#0b3c5d}}
@@ -28,8 +28,8 @@ body{{background:linear-gradient(170deg,#f2fafd,#d7eef7);color:#0b3c5d}}
 .logo{{top:28px;left:60px;width:125px}}
 .code{{position:absolute;top:56px;right:70px;background:#0b3c5d;color:#fff;font-weight:800;font-size:30px;padding:10px 26px;border-radius:40px}}
 h1{{position:absolute;top:190px;left:70px;width:940px;font-size:64px;line-height:1.15;font-weight:800}}h1 span{{color:#e8463a}}
-.ph{{position:absolute;left:190px;top:385px;width:700px;height:640px;object-fit:contain}}
-.badge{{position:absolute;top:400px;right:60px;width:240px;height:240px;border-radius:50%;background:#e8463a;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(8deg);text-align:center;font-size:25px;line-height:1.3}}.badge b{{font-size:32px}}
+.ph{{position:absolute;left:50px;top:440px;width:900px;height:580px;object-fit:contain}}
+.badge{{position:absolute;top:292px;right:32px;width:190px;height:190px;border-radius:50%;background:#e8463a;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(8deg);text-align:center;font-size:20px;line-height:1.3}}.badge b{{font-size:27px}}
 .sp{{position:absolute;bottom:60px;left:70px;right:70px;display:flex;gap:18px}}
 .sp div{{flex:1;padding:14px 12px;text-align:center;font-size:23px;line-height:1.3;border-top:3px solid #1496a8}}.sp b{{display:block;font-size:34px;color:#e8463a;margin-bottom:4px}}
 .cta{{position:absolute;bottom:235px;left:70px;font-size:30px;color:#2d6a85}}</style></head><body>
@@ -44,10 +44,10 @@ body{{background:#fbf3e6;color:#3b2a20}}
 .logo{{top:36px;right:60px;width:130px}}
 .tag{{position:absolute;top:70px;left:90px;font-size:26px;letter-spacing:6px;color:#b5543c;font-weight:700}}
 h1{{position:absolute;top:120px;left:90px;width:900px;font-family:'DejaVu Serif',serif;font-size:66px;line-height:1.14}}h1 i{{color:#b5543c}}
-.ph{{position:absolute;left:60px;top:330px;width:640px;height:700px;object-fit:contain}}
-.sp{{position:absolute;right:60px;top:420px;width:300px}}
-.sp div{{padding:16px 0 16px 18px;margin-bottom:14px;border-left:5px solid #b5543c;font-size:23px;line-height:1.35}}.sp b{{display:block;font-size:32px;color:#b5543c}}
-.code{{position:absolute;left:90px;top:1040px;color:#b5543c;font-weight:800;font-size:44px;letter-spacing:2px}}
+.ph{{position:absolute;left:40px;top:330px;width:1000px;height:520px;object-fit:contain}}
+.sp{{position:absolute;left:90px;right:90px;top:880px;display:flex;gap:24px}}
+.sp div{{flex:1;padding:8px 0 8px 16px;border-left:5px solid #b5543c;font-size:22px;line-height:1.3}}.sp b{{display:block;font-size:32px;color:#b5543c}}
+.code{{position:absolute;left:90px;top:1010px;color:#b5543c;font-weight:800;font-size:44px;letter-spacing:2px}}
 .bar{{position:absolute;left:90px;bottom:70px;right:90px;height:110px;border-radius:55px;background:#3b2a20;color:#fbf3e6;display:flex;align-items:center;justify-content:center;font-size:34px;font-weight:700}}</style></head><body>
 <div class=blob></div><img class=logo src=img/logo.jpg><div class=tag>KRASSEN · NẮP BỒN CẦU</div><h1>{p['title']}</h1>
 <img class=ph src={img}><div class=code>{p['code']}</div><div class=sp>{sp}</div><div class=bar>{CTA}</div></body></html>"""
@@ -57,8 +57,8 @@ body{{background:radial-gradient(circle at 50% 40%,#fffdf7,#f4e8c8);color:#3a2f1
 .logo{{top:30px;left:455px;width:170px}}
 h1{{position:absolute;top:200px;width:100%;font-family:'DejaVu Serif',serif;font-size:62px;line-height:1.2}}h1 span{{color:#a8802c}}
 .line{{position:absolute;top:432px;left:440px;width:200px;height:3px;background:#a8802c}}
-.ph{{position:absolute;left:190px;top:450px;width:700px;height:620px;object-fit:contain}}
-.code{{position:absolute;top:470px;right:90px;color:#a8802c;font-weight:800;font-size:34px;letter-spacing:2px}}
+.ph{{position:absolute;left:40px;top:470px;width:1000px;height:590px;object-fit:contain}}
+.code{{position:absolute;top:385px;width:100%;color:#a8802c;font-weight:800;font-size:34px;letter-spacing:4px}}
 .sp{{position:absolute;top:1105px;width:100%;display:flex;justify-content:center;gap:60px;font-size:25px;color:#5a4a22}}.sp b{{display:block;font-size:34px;color:#a8802c;margin-bottom:4px}}
 .bot{{position:absolute;bottom:70px;width:100%;font-size:34px;letter-spacing:2px;color:#3a2f14;font-weight:700}}</style></head><body>
 <img class=logo src=img/logo.jpg><h1>{p['title']}</h1><div class=line></div><img class=ph src={img}><div class=code>{p['code']}</div>
@@ -70,7 +70,7 @@ body{{background:linear-gradient(180deg,#f0faf5,#d6f0e3);color:#12453a}}
 .logo{{top:30px;right:60px;width:125px}}
 .tag{{position:absolute;top:62px;left:70px;font-size:26px;letter-spacing:7px;color:#1f9d75;font-weight:700}}
 h1{{position:absolute;top:130px;left:70px;width:900px;font-size:60px;line-height:1.15;font-weight:800}}h1 span{{color:#1f9d75}}
-.ph{{position:absolute;left:150px;top:340px;width:780px;height:670px;object-fit:contain}}
+.ph{{position:absolute;left:40px;top:350px;width:1000px;height:650px;object-fit:contain}}
 .code{{position:absolute;left:70px;top:1030px;font-size:46px;font-weight:800;color:#1f9d75;letter-spacing:2px}}
 .ask{{position:absolute;right:70px;top:1025px;text-align:right;font-size:30px;font-weight:700;color:#e0572f;line-height:1.25}}
 .sp{{position:absolute;left:70px;right:70px;bottom:60px;display:flex;justify-content:space-between;border-top:3px solid #1f9d75;padding-top:20px}}
@@ -83,7 +83,7 @@ body{{background:linear-gradient(160deg,#faf5fb,#e6dff3);color:#3a2f5c;text-alig
 .logo{{top:30px;left:70px;width:125px}}
 .code{{position:absolute;top:60px;right:70px;font-size:36px;font-weight:800;color:#7a5cc7;letter-spacing:2px}}
 h1{{position:absolute;top:190px;width:100%;font-family:'DejaVu Serif',serif;font-size:60px;line-height:1.2}}h1 i{{color:#7a5cc7}}
-.ph{{position:absolute;left:90px;top:400px;width:900px;height:560px;object-fit:contain}}
+.ph{{position:absolute;left:40px;top:400px;width:1000px;height:560px;object-fit:contain}}
 .ask{{position:absolute;top:985px;width:100%;font-size:40px;font-weight:800;color:#7a5cc7}}
 .sep{{position:absolute;bottom:170px;left:70px;right:70px;height:3px;background:#7a5cc7;opacity:.5}}
 .sp{{position:absolute;bottom:60px;left:70px;right:70px;display:flex;justify-content:space-between}}
