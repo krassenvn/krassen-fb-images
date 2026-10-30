@@ -37,8 +37,11 @@ C={
 'KS608U':("KS608U – nắp bồn cầu chữ U cỡ nhỏ gọn, nhựa PP cao cấp, trắng sữa phủ bóng 🌸",
  ["Rộng 34cm, dài 44cm (chỉnh dài 43–44cm tính từ mũi nắp đến tâm 2 chân bắt vít)","Rơi chậm không gây tiếng ồn, màu trắng sữa phủ bóng hạn chế trầy xước","Nhựa PP nguyên sinh cao cấp không ố màu, nặng 1,5kg dày chắc chắn, bảo hành 2 năm"],
  "Phù hợp bồn cầu Cotto (C686), Caesar (CPT1503), Viglacera (V56, V41), Basic (BS-101, BS-102, BS-303)…"),
+'KSV43':("KSV43 – nắp bồn cầu vuông mũi nhô, kích thước 35×43cm 🔲",
+ ["Rộng 35cm, dài 43cm (chỉnh dài 43–45cm tính từ mũi nắp đến tâm 2 ốc vít)","Rơi chậm không gây tiếng ồn, màu trắng sữa phủ bóng hạn chế trầy xước","Nhựa PP nguyên sinh cao cấp không ố màu, nặng 1,3kg dày chắc chắn, bảo hành 12 tháng"],
+ "Phù hợp bồn cầu Viglacera V43 và các dòng bồn cầu vuông có kích thước, kiểu dáng tương tự"),
 }
-ORDER=['KS500RK','KS11','KS609TC','KS500LK','KS09','KS15U','KS005','KS21','KS504C','KS45','KS602K','KS608U']
+ORDER=['KS500RK','KS11','KS609TC','KS500LK','KS09','KS15U','KS005','KS21','KS504C','KS45','KS602K','KS608U','KSV43']
 def caption(code):
     t,b,c=C[code]
     return t+"\n"+"\n".join("✅ "+x for x in b)+"\n"+c+"\n"+CTA+"\n"+HT

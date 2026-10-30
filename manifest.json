@@ -1,5 +1,5 @@
 {
- "version": 1,
+ "version": 2,
  "cta": "Nhắn tin để được tư vấn chi tiết",
  "start_date": "2026-10-29",
  "posting_time": "07:00 Asia/Saigon",
@@ -30,7 +30,7 @@
    "id": "108311425017369"
   }
  ],
- "rule": "Với ngày thứ d (d=0 là 2026-10-29) và trang có index p: dùng products[(5*d + p + 2) mod 12]. Bắt đầu lệch 2 để tránh trùng các bài đã đăng thử ngày 28/10.",
+ "rule": "Với ngày thứ d (d=0 là 2026-10-29), d2=d-2, N=số sản phẩm: trang index p đăng products[(5*d2 + p + 12) mod N]. Từ 31/10 (d=2) bắt đầu từ KSV43 rồi quay vòng đủ N mã.",
  "products": [
   {
    "code": "KS500RK",
@@ -91,7 +91,12 @@
    "code": "KS608U",
    "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS608U.jpg",
    "caption": "KS608U – nắp bồn cầu chữ U cỡ nhỏ gọn, nhựa PP cao cấp, trắng sữa phủ bóng 🌸\n✅ Rộng 34cm, dài 44cm (chỉnh dài 43–44cm tính từ mũi nắp đến tâm 2 chân bắt vít)\n✅ Rơi chậm không gây tiếng ồn, màu trắng sữa phủ bóng hạn chế trầy xước\n✅ Nhựa PP nguyên sinh cao cấp không ố màu, nặng 1,5kg dày chắc chắn, bảo hành 2 năm\nPhù hợp bồn cầu Cotto (C686), Caesar (CPT1503), Viglacera (V56, V41), Basic (BS-101, BS-102, BS-303)…\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KSV43",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KSV43.jpg",
+   "caption": "KSV43 – nắp bồn cầu vuông mũi nhô, kích thước 35×43cm 🔲\n✅ Rộng 35cm, dài 43cm (chỉnh dài 43–45cm tính từ mũi nắp đến tâm 2 ốc vít)\n✅ Rơi chậm không gây tiếng ồn, màu trắng sữa phủ bóng hạn chế trầy xước\n✅ Nhựa PP nguyên sinh cao cấp không ố màu, nặng 1,3kg dày chắc chắn, bảo hành 12 tháng\nPhù hợp bồn cầu Viglacera V43 và các dòng bồn cầu vuông có kích thước, kiểu dáng tương tự\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
   }
  ],
- "offset": 2
+ "offset": 12
 }

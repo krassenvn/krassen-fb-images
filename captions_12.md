@@ -1,4 +1,4 @@
-# Caption 12 mã (không ghi giá)
+# Caption các mã (không ghi giá)
 
 ## KS500RK
 Nắp bồn cầu rơi êm KS500RK – mũi nhọn, đáy bo, vừa vặn nhiều dòng bồn cầu 💧
@@ -105,5 +105,14 @@ KS608U – nắp bồn cầu chữ U cỡ nhỏ gọn, nhựa PP cao cấp, tr�
 ✅ Rơi chậm không gây tiếng ồn, màu trắng sữa phủ bóng hạn chế trầy xước
 ✅ Nhựa PP nguyên sinh cao cấp không ố màu, nặng 1,5kg dày chắc chắn, bảo hành 2 năm
 Phù hợp bồn cầu Cotto (C686), Caesar (CPT1503), Viglacera (V56, V41), Basic (BS-101, BS-102, BS-303)…
+📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!
+#krasen #napboncau #naproiem #suachuanhacua
+
+## KSV43
+KSV43 – nắp bồn cầu vuông mũi nhô, kích thước 35×43cm 🔲
+✅ Rộng 35cm, dài 43cm (chỉnh dài 43–45cm tính từ mũi nắp đến tâm 2 ốc vít)
+✅ Rơi chậm không gây tiếng ồn, màu trắng sữa phủ bóng hạn chế trầy xước
+✅ Nhựa PP nguyên sinh cao cấp không ố màu, nặng 1,3kg dày chắc chắn, bảo hành 12 tháng
+Phù hợp bồn cầu Viglacera V43 và các dòng bồn cầu vuông có kích thước, kiểu dáng tương tự
 📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!
 #krasen #napboncau #naproiem #suachuanhacua

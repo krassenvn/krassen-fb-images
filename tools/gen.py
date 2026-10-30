@@ -15,6 +15,8 @@ P=[  # code, img, style, title (html), specs [(big,small)x3], tag
  dict(code='KS45',img='ks45',style=5,title='Nắp cao cấp rơi êm,<br><i>gắn vòi xịt</i> tiện lợi',specs=[('37×47cm','chỉnh dài 47–48cm'),('1,7kg','dày chắc chắn'),('Bảo hành','2 năm')]),
  dict(code='KS602K',img='ks602k',style=2,title='Mũi nhọn đáy bo,<br><i>rơi chậm</i> không ồn',specs=[('36×47cm','chỉnh dài 46–48cm'),('1,5kg','dày chắc chắn'),('Bảo hành','2 năm')]),
  dict(code='KS608U',img='ks608u',style=1,title='Chữ U cỡ nhỏ gọn,<br>sang trọng <span>bền màu</span>',specs=[('34×44cm','chỉnh dài 43–44cm'),('Nhựa PP','trắng sữa phủ bóng'),('Bảo hành','2 năm')]),
+
+ dict(code='KSV43',img='ksv43',style=3,title='Nắp vuông mũi nhô,<br>rơi chậm <span>êm ái</span>',specs=[('35×43cm','chỉnh dài 43–45cm'),('1,3kg','dày chắc chắn'),('Bảo hành','12 tháng')]),
 ]
 def spec3(p,cls):
     return ''.join(f'<div><b>{a}</b>{b}</div>' for a,b in p['specs'])

@@ -8,3 +8,6 @@ Anh nguon: thu muc SP NAP DRIVE tren may Mac cua nguoi dung. Danh sach dang bai:
 ## Ban moi (29/10/2026)
 - Moi bai co 2 anh san pham (mat trong + mat mo nap): compose.py tao img/<MA>_pair.png tu danh sach PAIRS (ma, anh, goc xoay).
 - Lam trang bong nhe va deu: bu phan sang toi dien rong (gaussian sigma 60, he so 0.6) roi gamma 0.72; khong con vet sang cheo; khong do bong.
+
+## KSV43 (30/10/2026)
+- Anh chup tren nen bia: dung gc_photo.py (GrabCut + hull) thay cho cutout.py; mat trong nap xoay 90 do; sau do nang trang them (percentile 70 -> 0.985).
