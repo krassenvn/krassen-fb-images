@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "cta": "Nhắn tin để được tư vấn chi tiết",
  "start_date": "2026-10-29",
  "posting_time": "07:00 Asia/Saigon",
@@ -30,7 +30,7 @@
    "id": "108311425017369"
   }
  ],
- "rule": "Với ngày thứ d (d=0 là 2026-10-29), d2=d-2, N=số sản phẩm: trang index p đăng products[(5*d2 + p + 12) mod N]. Từ 31/10 (d=2) bắt đầu từ KSV43 rồi quay vòng đủ N mã.",
+ "rule": "Tra lịch: lấy m['calendar'][ngày hôm nay theo Asia/Saigon] → 5 mã theo thứ tự index trang 0..4. Nếu không có ngày đó thì dùng products[(5*dd + p + dd//4) mod N] với dd = số ngày kể từ 2026-11-02, theo thứ tự products trong file. Lịch được tạo lại mỗi khi thêm mã.",
  "products": [
   {
    "code": "KS500RK",
@@ -96,7 +96,478 @@
    "code": "KSV43",
    "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KSV43.jpg",
    "caption": "KSV43 – nắp bồn cầu vuông mũi nhô, kích thước 35×43cm 🔲\n✅ Rộng 35cm, dài 43cm (chỉnh dài 43–45cm tính từ mũi nắp đến tâm 2 ốc vít)\n✅ Rơi chậm không gây tiếng ồn, màu trắng sữa phủ bóng hạn chế trầy xước\n✅ Nhựa PP nguyên sinh cao cấp không ố màu, nặng 1,3kg dày chắc chắn, bảo hành 12 tháng\nPhù hợp bồn cầu Viglacera V43 và các dòng bồn cầu vuông có kích thước, kiểu dáng tương tự\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS42TC",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS42TC.jpg",
+   "caption": "Bồn cầu nhà bạn rộng 36–38cm, dài 46–48cm? Nắp mũi nhọn KS42TC dáng chữ V là lựa chọn rất vừa 👌\n\n• Rộng 37cm, dài 47cm (chỉnh dài 46–48cm tính từ mũi đến ngang 2 chân ốc vít)\n• Rơi chậm không gây tiếng ồn, nhựa PP nguyên sinh cao cấp không ố màu\n• Màu trắng sữa phủ bóng hạn chế trầy xước, nặng 1,6kg dày chắc chắn\n• Bảo hành 2 năm\n\nDùng được cho nhiều dòng bồn cầu: Inax (AC3003, AC902VN…), TOTO (MS188, MS625…), American (VF1808E, VF2011…), Viglacera (V37, V39…), Caesar (CD1340, C1356PW…)\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS07",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS07.jpg",
+   "caption": "3 lý do chọn nắp bồn cầu KS07 🛁\n\n1️⃣ Rơi chậm, không gây tiếng ồn\n2️⃣ Nhựa PP nguyên sinh cao cấp phủ bóng, màu trắng sữa, hạn chế trầy xước và không ố màu\n3️⃣ Rộng 36cm, dài 46cm, chỉnh được 43–47cm – hợp bồn cầu rộng 36–37cm, dài 43–47cm\n\nNặng 1,4kg dày chắc chắn, bảo hành 1 năm.\nTương thích American (VF2013, VF2014, VF2395…), TOTO (S704D), Cosani (RI 502E…), Cotto (C13961, C675)…\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KSV42T",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KSV42T.jpg",
+   "caption": "Đang dùng bồn cầu Viglacera V42 hay bồn cầu dáng vuông tương tự? 🔲\nNắp KSV42T thay thế vừa vặn, dáng chữ nhật vuông thang 33–35×45cm.\n\n✔ Rộng 33–35cm, dài 45cm (chỉnh dài 45–47cm tính từ mũi đến ngang 2 chân ốc vít)\n✔ Phù hợp bồn cầu rộng 35–36cm, dài 45–47cm\n✔ Rơi chậm không gây tiếng ồn, màu trắng sữa phủ bóng hạn chế trầy xước\n✔ Nhựa PP nguyên sinh cao cấp không ố màu, nặng 1,4kg, bảo hành 1 năm\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS23U",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS23U.jpg",
+   "caption": "KS23U – nắp bồn cầu chữ U đẹp cao cấp, 36×46cm ✨\nRơi chậm không gây tiếng ồn, trắng sữa phủ bóng, nhựa PP nguyên sinh không ố màu. Nặng 1,5kg, bảo hành 2 năm.\nChỉnh dài 46–48cm, hợp bồn cầu rộng 36cm, dài 46–48cm.\nThay thế cho nhiều bồn: TOTO (CW162, CW635…), Viglacera (P1135, V199, V35…), American Standard (VF2309, VF2781), Vinaloha, Kassani, Sanfi…\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS22VT",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS22VT.jpg",
+   "caption": "Hỏi nhanh – đáp gọn về nắp bồn cầu KS22VT ❓\n\n▪ Kích thước? Rộng 35cm, dài 47cm, bản lề gài.\n▪ Chỉnh được bao nhiêu? 45–48cm tính từ mũi đến ngang 2 chân ốc vít, hợp bồn cầu rộng 35–36cm, dài 46–48cm.\n▪ Chất liệu? Nhựa PP nguyên sinh cao cấp, trắng sữa phủ bóng, hạn chế trầy xước, không ố màu.\n▪ Có êm không? Rơi chậm không gây tiếng ồn, nặng 1,4kg dày chắc chắn.\n▪ Bảo hành? 2 năm.\n\nPhù hợp American (VF2385), Siton (S604), Sanfi (S303), HC (V1015), Viglacera (V45).\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS23VT",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS23VT.jpg",
+   "caption": "Bồn cầu rời khối (ốc nhựa) thì chọn nắp nào? 🤔\nKS23VT – nắp bồn cầu cao cấp tròn bầu 36×46cm, đi kèm ốc nhựa cho bồn rời khối.\n\nNắp rộng 36cm, dài 46cm, chỉnh dài 45–46cm, hợp bồn cầu rộng 36–37cm, dài 45–46cm. Rơi chậm không gây tiếng ồn, nhựa PP nguyên sinh cao cấp trắng sữa phủ bóng, hạn chế trầy xước, không ố màu. Nặng 1,6kg dày chắc chắn, bảo hành 2 năm.\n\nThay được cho các bồn Inax (C828VRN, C504VTN, C306VA…), HC (V116)…\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
+  },
+  {
+   "code": "KS04U",
+   "image_url": "https://raw.githubusercontent.com/krassenvn/krassen-fb-images/main/images/KS04U.jpg",
+   "caption": "Nắp bồn cầu U đúc đặc cao cấp KS04U – chắc tay, đóng nhẹ nhàng 💪\n36×46cm, nặng 1,6kg, đúc đặc dày chắc chắn.\nRơi chậm không gây tiếng ồn, nhựa PP nguyên sinh cao cấp, trắng sữa phủ bóng, hạn chế trầy xước, không ố màu.\nChỉnh dài 45–46cm, hợp bồn cầu rộng 36–37cm, dài 45–46cm. Bảo hành 2 năm.\nPhù hợp HC (V1016, BKL1016), TOTO (S760D)…\n📩 Nhắn tin để được tư vấn chi tiết và đúng size bồn cầu nhà bạn!\n#krasen #napboncau #naproiem #suachuanhacua"
   }
  ],
- "offset": 12
+ "offset": 12,
+ "calendar": {
+  "2026-10-31": [
+   "KSV43",
+   "KS500RK",
+   "KS11",
+   "KS609TC",
+   "KS500LK"
+  ],
+  "2026-11-01": [
+   "KS09",
+   "KS15U",
+   "KS005",
+   "KS21",
+   "KS504C"
+  ],
+  "2026-11-02": [
+   "KS42TC",
+   "KS07",
+   "KSV42T",
+   "KS23U",
+   "KS22VT"
+  ],
+  "2026-11-03": [
+   "KS23VT",
+   "KS04U",
+   "KS45",
+   "KS602K",
+   "KS608U"
+  ],
+  "2026-11-04": [
+   "KSV43",
+   "KS500RK",
+   "KS11",
+   "KS609TC",
+   "KS500LK"
+  ],
+  "2026-11-05": [
+   "KS09",
+   "KS15U",
+   "KS005",
+   "KS21",
+   "KS504C"
+  ],
+  "2026-11-06": [
+   "KS07",
+   "KSV42T",
+   "KS23U",
+   "KS22VT",
+   "KS23VT"
+  ],
+  "2026-11-07": [
+   "KS04U",
+   "KS45",
+   "KS602K",
+   "KS608U",
+   "KSV43"
+  ],
+  "2026-11-08": [
+   "KS500RK",
+   "KS11",
+   "KS609TC",
+   "KS500LK",
+   "KS09"
+  ],
+  "2026-11-09": [
+   "KS15U",
+   "KS005",
+   "KS21",
+   "KS504C",
+   "KS42TC"
+  ],
+  "2026-11-10": [
+   "KSV42T",
+   "KS23U",
+   "KS22VT",
+   "KS23VT",
+   "KS04U"
+  ],
+  "2026-11-11": [
+   "KS45",
+   "KS602K",
+   "KS608U",
+   "KSV43",
+   "KS500RK"
+  ],
+  "2026-11-12": [
+   "KS11",
+   "KS609TC",
+   "KS500LK",
+   "KS09",
+   "KS15U"
+  ],
+  "2026-11-13": [
+   "KS005",
+   "KS21",
+   "KS504C",
+   "KS42TC",
+   "KS07"
+  ],
+  "2026-11-14": [
+   "KS23U",
+   "KS22VT",
+   "KS23VT",
+   "KS04U",
+   "KS45"
+  ],
+  "2026-11-15": [
+   "KS602K",
+   "KS608U",
+   "KSV43",
+   "KS500RK",
+   "KS11"
+  ],
+  "2026-11-16": [
+   "KS609TC",
+   "KS500LK",
+   "KS09",
+   "KS15U",
+   "KS005"
+  ],
+  "2026-11-17": [
+   "KS21",
+   "KS504C",
+   "KS42TC",
+   "KS07",
+   "KSV42T"
+  ],
+  "2026-11-18": [
+   "KS22VT",
+   "KS23VT",
+   "KS04U",
+   "KS45",
+   "KS602K"
+  ],
+  "2026-11-19": [
+   "KS608U",
+   "KSV43",
+   "KS500RK",
+   "KS11",
+   "KS609TC"
+  ],
+  "2026-11-20": [
+   "KS500LK",
+   "KS09",
+   "KS15U",
+   "KS005",
+   "KS21"
+  ],
+  "2026-11-21": [
+   "KS504C",
+   "KS42TC",
+   "KS07",
+   "KSV42T",
+   "KS23U"
+  ],
+  "2026-11-22": [
+   "KS23VT",
+   "KS04U",
+   "KS45",
+   "KS602K",
+   "KS608U"
+  ],
+  "2026-11-23": [
+   "KSV43",
+   "KS500RK",
+   "KS11",
+   "KS609TC",
+   "KS500LK"
+  ],
+  "2026-11-24": [
+   "KS09",
+   "KS15U",
+   "KS005",
+   "KS21",
+   "KS504C"
+  ],
+  "2026-11-25": [
+   "KS42TC",
+   "KS07",
+   "KSV42T",
+   "KS23U",
+   "KS22VT"
+  ],
+  "2026-11-26": [
+   "KS04U",
+   "KS45",
+   "KS602K",
+   "KS608U",
+   "KSV43"
+  ],
+  "2026-11-27": [
+   "KS500RK",
+   "KS11",
+   "KS609TC",
+   "KS500LK",
+   "KS09"
+  ],
+  "2026-11-28": [
+   "KS15U",
+   "KS005",
+   "KS21",
+   "KS504C",
+   "KS42TC"
+  ],
+  "2026-11-29": [
+   "KS07",
+   "KSV42T",
+   "KS23U",
+   "KS22VT",
+   "KS23VT"
+  ],
+  "2026-11-30": [
+   "KS45",
+   "KS602K",
+   "KS608U",
+   "KSV43",
+   "KS500RK"
+  ],
+  "2026-12-01": [
+   "KS11",
+   "KS609TC",
+   "KS500LK",
+   "KS09",
+   "KS15U"
+  ],
+  "2026-12-02": [
+   "KS005",
+   "KS21",
+   "KS504C",
+   "KS42TC",
+   "KS07"
+  ],
+  "2026-12-03": [
+   "KSV42T",
+   "KS23U",
+   "KS22VT",
+   "KS23VT",
+   "KS04U"
+  ],
+  "2026-12-04": [
+   "KS602K",
+   "KS608U",
+   "KSV43",
+   "KS500RK",
+   "KS11"
+  ],
+  "2026-12-05": [
+   "KS609TC",
+   "KS500LK",
+   "KS09",
+   "KS15U",
+   "KS005"
+  ],
+  "2026-12-06": [
+   "KS21",
+   "KS504C",
+   "KS42TC",
+   "KS07",
+   "KSV42T"
+  ],
+  "2026-12-07": [
+   "KS23U",
+   "KS22VT",
+   "KS23VT",
+   "KS04U",
+   "KS45"
+  ],
+  "2026-12-08": [
+   "KS608U",
+   "KSV43",
+   "KS500RK",
+   "KS11",
+   "KS609TC"
+  ],
+  "2026-12-09": [
+   "KS500LK",
+   "KS09",
+   "KS15U",
+   "KS005",
+   "KS21"
+  ],
+  "2026-12-10": [
+   "KS504C",
+   "KS42TC",
+   "KS07",
+   "KSV42T",
+   "KS23U"
+  ],
+  "2026-12-11": [
+   "KS22VT",
+   "KS23VT",
+   "KS04U",
+   "KS45",
+   "KS602K"
+  ],
+  "2026-12-12": [
+   "KSV43",
+   "KS500RK",
+   "KS11",
+   "KS609TC",
+   "KS500LK"
+  ],
+  "2026-12-13": [
+   "KS09",
+   "KS15U",
+   "KS005",
+   "KS21",
+   "KS504C"
+  ],
+  "2026-12-14": [
+   "KS42TC",
+   "KS07",
+   "KSV42T",
+   "KS23U",
+   "KS22VT"
+  ],
+  "2026-12-15": [
+   "KS23VT",
+   "KS04U",
+   "KS45",
+   "KS602K",
+   "KS608U"
+  ],
+  "2026-12-16": [
+   "KS500RK",
+   "KS11",
+   "KS609TC",
+   "KS500LK",
+   "KS09"
+  ],
+  "2026-12-17": [
+   "KS15U",
+   "KS005",
+   "KS21",
+   "KS504C",
+   "KS42TC"
+  ],
+  "2026-12-18": [
+   "KS07",
+   "KSV42T",
+   "KS23U",
+   "KS22VT",
+   "KS23VT"
+  ],
+  "2026-12-19": [
+   "KS04U",
+   "KS45",
+   "KS602K",
+   "KS608U",
+   "KSV43"
+  ],
+  "2026-12-20": [
+   "KS11",
+   "KS609TC",
+   "KS500LK",
+   "KS09",
+   "KS15U"
+  ],
+  "2026-12-21": [
+   "KS005",
+   "KS21",
+   "KS504C",
+   "KS42TC",
+   "KS07"
+  ],
+  "2026-12-22": [
+   "KSV42T",
+   "KS23U",
+   "KS22VT",
+   "KS23VT",
+   "KS04U"
+  ],
+  "2026-12-23": [
+   "KS45",
+   "KS602K",
+   "KS608U",
+   "KSV43",
+   "KS500RK"
+  ],
+  "2026-12-24": [
+   "KS609TC",
+   "KS500LK",
+   "KS09",
+   "KS15U",
+   "KS005"
+  ],
+  "2026-12-25": [
+   "KS21",
+   "KS504C",
+   "KS42TC",
+   "KS07",
+   "KSV42T"
+  ],
+  "2026-12-26": [
+   "KS23U",
+   "KS22VT",
+   "KS23VT",
+   "KS04U",
+   "KS45"
+  ],
+  "2026-12-27": [
+   "KS602K",
+   "KS608U",
+   "KSV43",
+   "KS500RK",
+   "KS11"
+  ],
+  "2026-12-28": [
+   "KS500LK",
+   "KS09",
+   "KS15U",
+   "KS005",
+   "KS21"
+  ],
+  "2026-12-29": [
+   "KS504C",
+   "KS42TC",
+   "KS07",
+   "KSV42T",
+   "KS23U"
+  ],
+  "2026-12-30": [
+   "KS22VT",
+   "KS23VT",
+   "KS04U",
+   "KS45",
+   "KS602K"
+  ],
+  "2026-12-31": [
+   "KS608U",
+   "KSV43",
+   "KS500RK",
+   "KS11",
+   "KS609TC"
+  ]
+ }
 }
