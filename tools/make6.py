@@ -1,7 +1,7 @@
 """Chuẩn hóa ảnh sản phẩm: nền trắng, cân trắng đồng đều, logo Krassen chìm ở giữa. 1080x1080 JPG."""
 import sys, numpy as np
 from PIL import Image
-S=1080; FIT=900; WM_W=520; WM_OP=0.10
+S=1080; FIT=900; WM_W=130; WM_OP=0.10; WHITE=252
 def logo_rgba(path):
     lg=Image.open(path).convert('RGB'); a=np.asarray(lg).astype(float)
     dist=255-a.min(axis=2)            # độ đậm so với trắng
@@ -21,8 +21,8 @@ def process(src,dst,logo):
     gain=mean.mean()/mean                 # khử ám màu (xanh/vàng/xám)
     rgb=rgb*gain
     l2=rgb.mean(axis=2); p=np.percentile(l2[m],92)
-    rgb=rgb*(246/p)                       # đưa vùng trắng về cùng độ sáng
-    rgb=255*np.power(np.clip(rgb,0,255)/255,0.95)
+    rgb=rgb*(WHITE/p)                       # đưa vùng trắng về cùng độ sáng
+    rgb=255*np.power(np.clip(rgb,0,255)/255,0.90)
     rgb[~m]=255                           # nền trắng tuyệt đối
     out=np.dstack([np.clip(rgb,0,255),np.full(m.shape,255.)]).astype(np.uint8)
     pr=Image.fromarray(out,'RGBA'); pr.thumbnail((FIT,FIT),Image.LANCZOS)
