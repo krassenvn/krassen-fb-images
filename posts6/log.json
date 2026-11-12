@@ -25,5 +25,125 @@
       "108311425017369_1147593674441011"
     ],
     "link": "https://www.facebook.com/108311425017369/posts/1147593674441011"
+  },
+  {
+    "id": "20261112-1",
+    "date": "2026-11-12",
+    "codes": [
+      "KS504C",
+      "KS608U",
+      "KS42TC",
+      "KSV43",
+      "KS07U",
+      "KS21"
+    ],
+    "sources": [
+      "KS504C/4.png",
+      "KS608U/17.png",
+      "KS42TC/1.png",
+      "KSV43/4.png",
+      "KS07U/9.png",
+      "KS21/9.png"
+    ],
+    "pages": [
+      "1022190797633949"
+    ],
+    "post_ids": []
+  },
+  {
+    "id": "20261112-2",
+    "date": "2026-11-12",
+    "codes": [
+      "KVS600",
+      "KS504C",
+      "KS11",
+      "KSV42T",
+      "KS15U",
+      "KS500LK"
+    ],
+    "sources": [
+      "KVS600/5.png",
+      "KS504C/8.png",
+      "KS11/1.png",
+      "KSV42T/25.png",
+      "KS15U/9.png",
+      "KS500LK/7.png"
+    ],
+    "pages": [
+      "760540450484887"
+    ],
+    "post_ids": []
+  },
+  {
+    "id": "20261112-3",
+    "date": "2026-11-12",
+    "codes": [
+      "KS23VT",
+      "KS23U",
+      "KS500LK",
+      "KSV43",
+      "KS608U",
+      "KS09"
+    ],
+    "sources": [
+      "KS23VT/7.png",
+      "KS23U/2.png",
+      "KS500LK/1.png",
+      "KSV43/1.png",
+      "KS608U/9.png",
+      "KS09/10.png"
+    ],
+    "pages": [
+      "739402342581068"
+    ],
+    "post_ids": []
+  },
+  {
+    "id": "20261112-4",
+    "date": "2026-11-12",
+    "codes": [
+      "KVS600",
+      "KS07U",
+      "KS23VT",
+      "KS608U",
+      "KS42TC",
+      "KS609TC"
+    ],
+    "sources": [
+      "KVS600/14.png",
+      "KS07U/14.png",
+      "KS23VT/1.png",
+      "KS608U/1.png",
+      "KS42TC/34.png",
+      "KS609TC/2.png"
+    ],
+    "pages": [
+      "688853764307675"
+    ],
+    "post_ids": []
+  },
+  {
+    "id": "20261112-5",
+    "date": "2026-11-12",
+    "codes": [
+      "KS45",
+      "KS21",
+      "KSV42T",
+      "KS15U",
+      "KS602K",
+      "KS11"
+    ],
+    "sources": [
+      "KS45/9.png",
+      "KS21/3.png",
+      "KSV42T/1.png",
+      "KS15U/25.png",
+      "KS602K/10.png",
+      "KS11/9.png"
+    ],
+    "pages": [
+      "108311425017369"
+    ],
+    "post_ids": []
   }
 ]
