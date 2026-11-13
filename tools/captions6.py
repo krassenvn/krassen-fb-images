@@ -50,7 +50,9 @@ Dùng cho Ceravi (C304, C315) và các bồn cầu vuông bo cạnh.""",
 ▪ Nặng 1,2kg, bảo hành 1 năm
 Phù hợp bồn cầu rộng 34–35cm, dài 45–46cm: Ceravi (C304, C315) và các bồn vuông bo cạnh"""],
 }
-def full(code, i): return C[code][i] + "\n" + CTA + "\n" + HT
+def full(code, i):
+    t = C[code][i]
+    return t if CTA in t else t + "\n" + CTA + "\n" + HT
 if __name__ == '__main__':
     import sys
     for c in C:
