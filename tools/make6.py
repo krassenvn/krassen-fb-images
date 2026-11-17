@@ -8,6 +8,8 @@ from scipy import ndimage
 S = 1080; FIT = 860; WM_W = 130; WM_OP = 0.10; WHITE = 252
 SH_OP = 0.15; SH_BLUR = 20; SH_DY = 24          # bóng đổ mềm phía dưới
 CT_OP = 0.16; CT_BLUR = 26                       # bóng tiếp xúc (mặt bàn)
+HALO_OP = 0.30; HALO_BLUR = 10; HALO_GROW = 1     # bóng mờ bo quanh sản phẩm
+EV_SIG = 45; EV_K = 0.6; EDGE_CUT = 2                          # làm đều sáng
 
 
 def logo_rgba(path):
@@ -28,7 +30,13 @@ def product(src):
         m = np.isin(lab, 1 + np.where(sz > sz.max() * 0.01)[0])
     m0 = m.copy()                                # chỉ phần có màu, để đo độ sáng
     m = ndimage.binary_closing(m, iterations=6)
-    m = ndimage.binary_fill_holes(m)             # che phần bóng sáng bên trong sản phẩm
+    m = ndimage.binary_fill_holes(m)
+    # bỏ dải bóng mờ có sẵn quanh mép ảnh gốc: chỉ giữ phần đủ đậm so với nền
+    core = ndimage.binary_fill_holes(ndimage.binary_closing(np.asarray(Image.open(src).convert('L')) < 238, iterations=6))
+    m = ndimage.binary_erosion(m & core, iterations=EDGE_CUT)
+    lab, n = ndimage.label(m)
+    if n > 1:
+        sz = ndimage.sum(m, lab, range(1, n + 1)); m = lab == (1 + int(np.argmax(sz)))             # che phần bóng sáng bên trong sản phẩm
     ys, xs = np.where(m); y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
     rgb = rgb[y0:y1, x0:x1]; m = m[y0:y1, x0:x1]; m0 = m0[y0:y1, x0:x1]
     lum = rgb.mean(axis=2); sat = rgb.max(axis=2) - rgb.min(axis=2)
@@ -37,6 +45,12 @@ def product(src):
     rgb = rgb * (mean.mean() / mean)             # khử ám màu
     p = np.percentile(rgb.mean(axis=2)[m0], 88)
     rgb = rgb * (WHITE / p)                      # đồng bộ độ sáng vùng trắng
+    # làm đều độ sáng vùng trắng (khử mảng tối/sáng do ánh đèn)
+    lum = rgb.mean(axis=2); bright = m0 & (lum > 150)
+    w = ndimage.gaussian_filter(bright.astype(float), EV_SIG) + 1e-6
+    lb = ndimage.gaussian_filter(np.where(bright, lum, 0), EV_SIG) / w
+    gain = np.clip((WHITE / np.maximum(lb, 1)) ** EV_K, 0.85, 1.35)
+    rgb = np.where(bright[..., None], rgb * gain[..., None], rgb)
     rgb = 255 * np.power(np.clip(rgb, 0, 255) / 255, 0.85)
     alpha = Image.fromarray((m * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(0.8))
     out = Image.fromarray(np.clip(rgb, 0, 255).astype(np.uint8), 'RGB').convert('RGBA')
@@ -57,7 +71,10 @@ def process(src, dst, logo):
     from PIL import ImageDraw
     ImageDraw.Draw(ct).ellipse([x + pr.width * 0.12, y + pr.height - 22, x + pr.width * 0.88, y + pr.height + 26], fill=255)
     ct = np.asarray(ct.filter(ImageFilter.GaussianBlur(CT_BLUR))).astype(float) / 255 * CT_OP
-    shade = np.clip(sh + ct, 0, 0.35)
+    halo = np.zeros((S, S)); hb = ndimage.binary_dilation(a > 0.5, iterations=HALO_GROW)
+    hh, ww = hb.shape; halo[y:y + hh, x:x + ww] = hb[:S - y, :S - x]
+    halo = ndimage.gaussian_filter(halo, HALO_BLUR) * HALO_OP
+    shade = np.clip(sh + ct + halo, 0, 0.35)
     base = np.full((S, S, 3), 255.0) * (1 - shade[..., None]) + np.array([150, 150, 155]) * shade[..., None]
     can = Image.fromarray(base.astype(np.uint8), 'RGB').convert('RGBA')
     can.alpha_composite(pr, (x, y))
